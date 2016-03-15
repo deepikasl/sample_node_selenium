@@ -3,11 +3,11 @@ language: node_js
 node_js:
   - "0.10"
   
-build_image: shippable/minv2
+#build_image: shippable/minv2
 
-addons:
-  firefox: "23.0"
-  selenium: "2.43"
+#addons:
+ # firefox: "23.0"
+#  selenium: "2.43"
 
 services:
   - selenium
@@ -20,4 +20,4 @@ before_script:
   
 #cache: true
 
-archive: true
+#archive: true
