@@ -5,9 +5,9 @@ node_js:
   
 #build_image: shippable/minv2
 
-#addons:
- # firefox: "23.0"
-#  selenium: "2.43"
+addons:
+  firefox: "23.0"
+  selenium: "2.43"
 
 services:
   - selenium
